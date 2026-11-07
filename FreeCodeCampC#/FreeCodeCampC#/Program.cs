@@ -1,5 +1,20 @@
 ﻿// SCRATCHPAD (PRACTICE CODE)
 
+/* Nested loop example
+for (int round = 1; round <=2; round++)
+{
+    Console.WriteLine($"Round {round} ");
+    for(int rep = 1; rep <=3;  rep++)
+    {
+        Console.WriteLine($"Rep {rep} ");
+        if(rep == 3)
+        {
+            Console.WriteLine("Round Complete!");
+        }
+    }
+}
+*/
+
 
 
 /* THE FOR LOOP IN C#
