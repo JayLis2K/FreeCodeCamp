@@ -1,5 +1,65 @@
 ﻿// SCRATCHPAD (PRACTICE CODE)
 
+
+// LISTS
+/* LISTS IN C# BASICS
+List<string> colors = new List<string> { "red", "green", "blue" }; // Creates a list of strings with assigned values
+List<int> scores = new List<int>(); // Creates an empty list of integers
+*/
+
+/* MAKING CHANGES TO LISTS IN C#
+List<string> colors = new List<string> { "red", "green", "blue" };
+
+Console.WriteLine(colors.Count); // Output: 3
+colors.Add("yellow");            // Adds "yellow" to the end
+Console.WriteLine(colors.Count); // Output: 4
+
+colors.Remove("red");            // Removes "red"
+colors[0] = "purple";            // Replaces "green" with "purple"
+*/
+
+/* LIST OPERATIONS IN C#
+list.count; // Returns the number of elements in the list
+list.Add("yellow"); // Adds "yellow" to the end of the list
+list.remove("yellow"); // Removes "yellow" from the list
+list[i]; // Accesses the element at index i
+list.RemoveAt(i); // Removes the element at index i
+List.Sort(); // Sorts the list in ascending order
+*/
+
+/* FOREACH LOOP WITH LISTS IN C#
+List<int> scores = new List<int> { 95, 82, 76, 91 };
+
+foreach (int score in scores) // creates a variable score to hold each value in the scores list
+{
+    Console.WriteLine(score);
+}
+*/
+
+// ARRAYS
+/* ARRAYS IN C# BASICS
+int[] scores = new int[4]; // Array of 4 integers (default to 0)
+scores[0] = 10; // Assigning value to the first element of array
+
+string[] colors = { "red", "green", "blue" }; // // Array of 3 strings (with values listed in the curly braces)
+Console.WriteLine(colors[0]); // Output: red
+Console.WriteLine(colors[2]); // Output: blue
+
+colors[0] = "purple"; // Replaces "red" with "purple"
+Console.WriteLine(colors[0]); // Output: purple
+*/
+
+/* FOREACH LOOP WITH ARRAYS IN C#
+int[] scores = { 95, 82, 76, 91 }
+;
+
+foreach (int score in scores) // Declares int variable score to hold each value in the scores array
+{
+   Console.WriteLine(score);
+}
+*/
+
+// LOOPS
 /* Nested loop example
 for (int round = 1; round <=2; round++)
 {
@@ -14,8 +74,6 @@ for (int round = 1; round <=2; round++)
     }
 }
 */
-
-
 
 /* THE FOR LOOP IN C#
 
